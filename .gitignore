@@ -159,3 +159,5 @@ cython_debug/
 
 secrets.toml
 credentials.toml 
+
+streamlit.secrets
