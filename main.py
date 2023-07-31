@@ -22,7 +22,7 @@ if Guitar_Riff_Idea_Generator:
     # Verifique se a resposta gerada pelo modelo é válida
     if response.choices and response.choices[0].text.strip():
         # Exiba a resposta gerada pelo modelo
-        st.subheader("Resposta do GPT-3.5:")
+        st.subheader("Resposta:")
         st.write(response.choices[0].text)
     else:
         st.subheader("O modelo não retornou uma resposta válida.")
