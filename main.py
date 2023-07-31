@@ -1,9 +1,6 @@
 import streamlit as st
 import openai
 
-# Configure a API key do OpenAI (NÃO inclua a chave diretamente no código!)
-# openai.api_key = "sua_api_key_aqui"
-
 st.title("Guitar Chat")
 st.subheader("Guitar Riff Idea Generator")
 
