@@ -50,7 +50,8 @@ if guitar_riff_idea_generator:
     response = openai.Completion.create(
         engine="text-davinci-003",
         prompt=guitar_riff_idea_generator,
-        max_tokens=1000
+        max_tokens=1000,
+        temperature=1.2
     )
 
     # Verifique se a resposta gerada pelo modelo é válida
