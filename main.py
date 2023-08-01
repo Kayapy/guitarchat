@@ -43,7 +43,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 st.title("Guitar Chat")
 st.subheader("Guitar Riff Idea Generator")
 
-guitar_riff_idea_generator = st.text_input("Type Here What You Want To Create on the Guitar:")
+guitar_riff_idea_generator = st.text_input("Escreva Aqui:")
 
 # Chame a API do GPT-3.5 para gerar a resposta
 if guitar_riff_idea_generator:
