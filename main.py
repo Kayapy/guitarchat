@@ -51,7 +51,7 @@ if guitar_riff_idea_generator:
         engine="text-davinci-003",
         prompt=guitar_riff_idea_generator,
         max_tokens=1000,
-        temperature=1.3
+        temperature=1.0
     )
 
     # Verifique se a resposta gerada pelo modelo é válida
