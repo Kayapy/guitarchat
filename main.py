@@ -48,7 +48,7 @@ guitar_riff_idea_generator = st.text_input("Escreva Aqui:")
 # Chame a API do GPT-3.5 para gerar a resposta
 if guitar_riff_idea_generator:
     response = openai.Completion.create(
-        engine="text-davinci-003"
+        model="gpt-3.5-turbo",
         prompt=guitar_riff_idea_generator,
         max_tokens=1000,
         temperature=1.0
